@@ -16,11 +16,11 @@
     </div>
     <div class="form-group">
       <label for="contact-phone-mobile">Mobile</label>
-      <input class="form-control" name="contact-phone-mobile" [(ngModel)]="contact.phone.mobile" placeholder="1234567890"/>
+      <input class="form-control" name="contact-phone-mobile" [(ngModel)]="contact.phone.mobile" placeholder="14156292524"/>
     </div>
     <div class="form-group">
       <label for="contact-phone-work">Zipcode</label>
-      <input class="form-control" name="contact-zipcode" [(ngModel)]="contact.phone.zipcode" placeholder="0123456789"/>
+      <input class="form-control" name="contact-zipcode" [(ngModel)]="contact.phone.zipcode" placeholder="94115"/>
     </div>
     <button class="btn btn-primary" *ngIf="!contact._id" (click)="createContact(contact)">Create</button>
     <button class="btn btn-info" *ngIf="contact._id" (click)="updateContact(contact)">Update</button>
