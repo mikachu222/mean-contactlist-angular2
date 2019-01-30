@@ -7,8 +7,12 @@
 <div *ngIf="contact" class="row">
   <form class="col-md-12">
     <div class="form-group">
-      <label for="contact-name">Name</label>
-      <input class="form-control" name="contact-name" [(ngModel)]="contact.name" placeholder="Name"/>
+      <label for="contact-name">First Name</label>
+      <input class="form-control" name="contact-firstname" [(ngModel)]="contact.firstname" placeholder="First Name"/>
+    </div>
+       <div class="form-group">
+      <label for="contact-name">Last Name</label>
+      <input class="form-control" name="contact-lastname" [(ngModel)]="contact.lastname" placeholder="Last Name"/>
     </div>
     <div class="form-group">
       <label for="contact-email">Email</label>
