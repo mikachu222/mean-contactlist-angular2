@@ -24,15 +24,7 @@ export class ContactListComponent implements OnInit {
   }
   
     ngOnInit() {
-     this.contactService
-      .getContacts()
-      .then((contacts: Contact[]) => {
-        this.contacts = contacts.map((contact) => {
-            }
-          }
-          return contact;
-        });
-      });
+     
   }
 
   selectContact(contact: Contact) {
