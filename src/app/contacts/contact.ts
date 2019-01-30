@@ -6,4 +6,3 @@ export class Contact {
   mobile: string;
   zipcode: string;
   }
-}
